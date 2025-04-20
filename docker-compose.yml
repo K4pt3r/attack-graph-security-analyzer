@@ -1,0 +1,19 @@
+
+services:
+  backend:
+    build: ./web_ui/backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./web_ui/backend:/app
+    restart: always
+
+  frontend:
+    build: ./web_ui/frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./web_ui/frontend:/app
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    restart: always

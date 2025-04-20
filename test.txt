@@ -1,0 +1,46 @@
+attack-graph-security-analyzer/
+│
+├── scanner/                      # Внешний модуль для сканирования сети (запускается отдельно)
+│   ├── network_discovery.py     # Обнаружение хостов
+│   ├── port_scanner.py          # Сканирование портов
+│   ├── service_detector.py      # Определение сервисов
+│   ├── os_fingerprint.py        # Определение ОС
+│   └── save_snapshot.py         # Экспорт результатов в JSON
+│
+├── topology_generator/          # Генератор виртуальных сетей с уязвимостями
+│   ├── generator.py             # Генерация узлов, связей, сервисов, уязвимостей
+│   └── examples/                # Примеры сетей
+│
+├── analyzer_core/               # Основной анализ и построение графов
+│   ├── loader.py                # Загрузка сети из файла
+│   ├── vulnerability_checker.py# Проверка по CVE/топологии
+│   ├── risk_evaluator.py        # Расчёт риска (по STRIDE, DREAD и т.п.)
+│   ├── attacker_models.py       # Модели атакующих (внешний, внутренний)
+│   ├── graph_builder.py         # Построение графов
+│   ├── graph_analyzer.py        # Поиск уязвимых путей
+│   └── attack_simulator.py      # Имитация атак
+│
+├── web_ui/                      # Веб-интерфейс
+│   ├── backend/                 # FastAPI/Flask
+│   │   ├── main.py              # API-сервер
+│   │   ├── routes/              # Загрузка данных, анализ, симуляция
+│   │   └── models/              # Pydantic-модели
+│   └── frontend/                # React/Vue
+│       ├── components/
+│       │   ├── NetworkGraph.vue     # Граф сети
+│       │   ├── AttackGraph.vue      # Граф атак
+│       │   └── RiskPanel.vue        # Панель рисков и уязвимостей
+│       └── pages/
+│           ├── Home.vue
+│           └── Upload.vue
+│
+├── data/
+│   ├── snapshots/               # Снимки сети (результаты сканирования)
+│   └── generated_topologies/    # Сгенерированные виртуальные сети
+│
+├── tests/
+│   └── test_*.py                # Юнит-тесты
+│
+├── main.py                      # Запуск анализатора вручную (CLI)
+├── requirements.txt
+└── README.md

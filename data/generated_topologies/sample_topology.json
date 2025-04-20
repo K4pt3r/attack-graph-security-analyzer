@@ -1,0 +1,1781 @@
+{
+  "devices": [
+    {
+      "id": "d53b9f6d-3653-4245-8eca-ebf65f9847f6",
+      "name": "Laptop-00",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "fecc0b89-900e-47d7-aa93-a01ad06597b0",
+      "name": "Printer-01",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "6cf6b12d-8d03-46d5-81e8-12663c25b795",
+      "name": "Switch-02",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa",
+      "name": "Firewall-03",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "5e8464e1-6c75-46c8-afaa-b35d7406391b",
+      "name": "Router-04",
+      "type": "Router",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "0e64ac11-bcfc-4ca5-b63d-448dbd9a4487",
+      "name": "Firewall-05",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2017-0144",
+          "remediation": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 \u043f\u0430\u0442\u0447 EternalBlue."
+        }
+      ]
+    },
+    {
+      "id": "caf1a2e2-8555-4678-a1e9-f7f7fe673250",
+      "name": "Workstation-06",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "39117c0a-c43e-40c3-8496-3c390dcceaef",
+      "name": "Laptop-07",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        },
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "5a189752-82b2-4813-8a6c-4075170afcac",
+      "name": "Workstation-08",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "87683adb-6c4a-4eba-939d-aca10b87c505",
+      "name": "Switch-09",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        }
+      ]
+    },
+    {
+      "id": "8cb2268c-9ed8-4286-8999-fc4048dd226d",
+      "name": "Server-10",
+      "type": "Server",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        },
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        }
+      ]
+    },
+    {
+      "id": "7ccfeb1d-e4cf-4623-a90d-93bceadf9d33",
+      "name": "Server-11",
+      "type": "Server",
+      "services": [
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "38ca14d6-9458-4f12-9505-ece69a5600e4",
+      "name": "Workstation-12",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "d22b7849-1b92-46c7-8367-bd02c9308f1e",
+      "name": "Router-13",
+      "type": "Router",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2017-0144",
+          "remediation": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 \u043f\u0430\u0442\u0447 EternalBlue."
+        },
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2021-22945",
+          "remediation": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u044c\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a FTP \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e VPN."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "9cf664bc-fb73-4fba-8bda-e301836afb1c",
+      "name": "Laptop-14",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "4e54b1fc-ccc5-49c0-8ae6-86dbbd899e25",
+      "name": "Laptop-15",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        }
+      ]
+    },
+    {
+      "id": "de401462-40f6-4f40-a31b-7e007c5e7aeb",
+      "name": "Server-16",
+      "type": "Server",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "e54fc833-0150-4798-b9f5-9a49bd6bab10",
+      "name": "Switch-17",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "8fc30d6b-28b3-46d0-a1ec-46752acdaff8",
+      "name": "Laptop-18",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "db3d3638-ed2c-4bb9-90dd-9dda7eba1375",
+      "name": "Switch-19",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2021-22945",
+          "remediation": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u044c\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a FTP \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e VPN."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "40db3c34-8385-4862-9de2-c06119c2c5bd",
+      "name": "Workstation-20",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        }
+      ]
+    },
+    {
+      "id": "e41d4ff0-3810-4f1c-a7ff-6599777c52e8",
+      "name": "Printer-21",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2021-22945",
+          "remediation": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u044c\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a FTP \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e VPN."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "98387476-815c-4236-9473-bf68ae11bd2e",
+      "name": "Server-22",
+      "type": "Server",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "f9177fbc-4935-4058-aec5-d10dde2c1b93",
+      "name": "Server-23",
+      "type": "Server",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "40ebdfb9-29a8-4b8d-8dcf-83751e41fc40",
+      "name": "Laptop-24",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "575e1a76-95d6-49a9-a6bb-5144ec3c37a1",
+      "name": "Switch-25",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "24f49768-bf13-4bd7-b43e-44d22208121a",
+      "name": "Firewall-26",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "e833ee5d-5893-4b13-848d-7b765f9ce808",
+      "name": "Firewall-27",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        }
+      ]
+    },
+    {
+      "id": "a1b1f657-aaaa-480d-8f86-d9905779c79e",
+      "name": "Server-28",
+      "type": "Server",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "7964f126-c531-41bc-b0ad-ab3be7e4aa50",
+      "name": "Workstation-29",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "7e9508f7-2819-4819-b722-5ace66cd8549",
+      "name": "Laptop-30",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "dbf7927d-dc80-49fb-86ba-d2126f17e0e6",
+      "name": "Switch-31",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        }
+      ]
+    },
+    {
+      "id": "193aae20-978d-44b5-be67-5053c200e247",
+      "name": "Laptop-32",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        }
+      ]
+    },
+    {
+      "id": "6d7c6551-dba7-4bf9-a71e-018d8e6972d3",
+      "name": "Laptop-33",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "50a07981-315d-4653-bb37-88cd9b843f94",
+      "name": "Server-34",
+      "type": "Server",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "ecd85cd7-79e4-4292-8764-ecc1c7f2c623",
+      "name": "Server-35",
+      "type": "Server",
+      "services": [
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        }
+      ]
+    },
+    {
+      "id": "e4e7015d-b8ef-4780-bd3a-eec01e3340c3",
+      "name": "Laptop-36",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "ce7afa99-ea83-43a0-8b4a-8ff5811cc68b",
+      "name": "Firewall-37",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        }
+      ]
+    },
+    {
+      "id": "48213b92-b17a-41ed-bcfd-bf3c3e735bc2",
+      "name": "Workstation-38",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "d3330c6f-b612-4267-a952-56d3f80c336f",
+      "name": "Switch-39",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        },
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "b3173034-2864-4eef-9a1b-77e9eee23c9a",
+      "name": "Workstation-40",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "2930169b-3f99-4e32-86d8-35c764c05f8f",
+      "name": "Printer-41",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "7c158786-5566-482c-a6c5-8bd953f5f265",
+      "name": "Firewall-42",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "0b2498f9-32b4-4acc-b09c-ee8e35d65de5",
+      "name": "Firewall-43",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "27f3be0b-cbdc-403e-a6d5-90911ad81264",
+      "name": "Server-44",
+      "type": "Server",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "013aca33-3f27-4399-82e7-50908d3e9477",
+      "name": "Switch-45",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        }
+      ]
+    },
+    {
+      "id": "7ce1d5e1-6807-47c5-baa6-e5f1203a267b",
+      "name": "Router-46",
+      "type": "Router",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2021-22945",
+          "remediation": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u044c\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a FTP \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e VPN."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        }
+      ]
+    },
+    {
+      "id": "acc1e7ee-3da0-4055-a8d7-2dac6661b0e3",
+      "name": "Switch-47",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "7613a440-40fe-4529-b2ae-638f3d05b7f6",
+      "name": "Printer-48",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2017-0144",
+          "remediation": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 \u043f\u0430\u0442\u0447 EternalBlue."
+        }
+      ]
+    },
+    {
+      "id": "cb6bbc04-d97c-4131-8005-f46dc3001221",
+      "name": "Switch-49",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "120baba9-e4ae-442e-ac53-9bc029be294e",
+      "name": "Firewall-50",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "c28f5a20-a65a-43c0-9352-fd9fa3b24746",
+      "name": "Printer-51",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "3d9d52da-f281-4453-96ac-d7b62dce88e5",
+      "name": "Printer-52",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "897b9b68-9f62-4939-b03e-b425e094322e",
+      "name": "Router-53",
+      "type": "Router",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2021-22945",
+          "remediation": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u044c\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a FTP \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e VPN."
+        }
+      ]
+    },
+    {
+      "id": "23971421-d62a-45f0-bb3d-8015af0abd5d",
+      "name": "Switch-54",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2017-0144",
+          "remediation": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 \u043f\u0430\u0442\u0447 EternalBlue."
+        }
+      ]
+    },
+    {
+      "id": "b0364243-fc33-4a02-adb4-c5557cfed389",
+      "name": "Switch-55",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2021-22945",
+          "remediation": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u044c\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a FTP \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e VPN."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "93bc8e40-f668-42a9-9252-8c8a3349595e",
+      "name": "Server-56",
+      "type": "Server",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "31b008cc-94a8-4be1-b92c-6fae45cbb608",
+      "name": "Router-57",
+      "type": "Router",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "46a7bd63-e030-4893-9bab-8ab5341b322d",
+      "name": "Workstation-58",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        }
+      ]
+    },
+    {
+      "id": "3e50207a-312b-4d8c-8617-f9aa4246176d",
+      "name": "Router-59",
+      "type": "Router",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        }
+      ]
+    },
+    {
+      "id": "b68fcef1-9515-4d03-a2f7-84fcc74f8a57",
+      "name": "Firewall-60",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "88605ae0-0b34-4f9b-9416-29f6555c2844",
+      "name": "Switch-61",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        },
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "66d0f492-5e5c-4815-a84b-7a0b247ad67f",
+      "name": "Server-62",
+      "type": "Server",
+      "services": [
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        }
+      ]
+    },
+    {
+      "id": "dbb13fd8-b187-49d4-bdd2-bccf100184d9",
+      "name": "Firewall-63",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "132b9fb9-2d91-471b-bc0c-d2c446c11e4d",
+      "name": "Server-64",
+      "type": "Server",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2017-0144",
+          "remediation": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 \u043f\u0430\u0442\u0447 EternalBlue."
+        }
+      ]
+    },
+    {
+      "id": "cf91a351-1eda-489d-8ef4-925183dc4aa7",
+      "name": "Printer-65",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "df51be7d-a5df-4212-bb7e-4b5cf7da2d0e",
+      "name": "Laptop-66",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "210918c0-036f-43b9-a070-c64c9c0d6bfb",
+      "name": "Firewall-67",
+      "type": "Firewall",
+      "services": [
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2019-8942",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 PUT-\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432."
+        }
+      ]
+    },
+    {
+      "id": "6b2eaa3e-0618-435d-9717-5dca6f121765",
+      "name": "Switch-68",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        }
+      ]
+    },
+    {
+      "id": "a3b7cc51-21ed-4da8-a55d-fea2e61c9824",
+      "name": "Switch-69",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "a134314e-4157-45db-aeee-8e91906eab09",
+      "name": "Printer-70",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2020-0796",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SMBv3 \u0438\u043b\u0438 \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0443."
+        }
+      ]
+    },
+    {
+      "id": "5753fe4c-43f5-4f82-b75f-3f30404e8eb5",
+      "name": "Switch-71",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        }
+      ]
+    },
+    {
+      "id": "b0b8ba38-51a4-4fce-a4c9-d55a8077d3bf",
+      "name": "Switch-72",
+      "type": "Switch",
+      "services": [
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        },
+        {
+          "name": "SSH",
+          "vulnerability": "CVE-2018-15473",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 SSH-\u0441\u0435\u0440\u0432\u0435\u0440 \u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 fail2ban."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "0fd96301-fc08-4e15-8e57-e3eb6b985cb0",
+      "name": "Printer-73",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "SMB",
+          "vulnerability": "CVE-2017-0144",
+          "remediation": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435 \u043f\u0430\u0442\u0447 EternalBlue."
+        },
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "f155d5aa-883f-40f8-a328-096fb6eab658",
+      "name": "Workstation-74",
+      "type": "Workstation",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2021-22945",
+          "remediation": "\u041e\u0433\u0440\u0430\u043d\u0438\u0447\u044c\u0442\u0435 \u0434\u043e\u0441\u0442\u0443\u043f \u043a FTP \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e VPN."
+        }
+      ]
+    },
+    {
+      "id": "28d55f1a-7acb-4604-81d8-cd5f72d6795e",
+      "name": "Printer-75",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "714fd6d7-ac37-4906-a5a2-6320005dab15",
+      "name": "Printer-76",
+      "type": "Printer",
+      "services": [
+        {
+          "name": "PostgreSQL",
+          "vulnerability": "CVE-2022-1552",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 PostgreSQL \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        }
+      ]
+    },
+    {
+      "id": "fd32e995-0326-4e3a-a729-d134da265417",
+      "name": "Server-77",
+      "type": "Server",
+      "services": [
+        {
+          "name": "SNMP",
+          "vulnerability": "CVE-2017-6736",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 SNMPv1 \u0438 v2c, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SNMPv3."
+        }
+      ]
+    },
+    {
+      "id": "7cc3eb46-8d98-4151-9025-9491d84d7e76",
+      "name": "Router-78",
+      "type": "Router",
+      "services": [
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "RDP",
+          "vulnerability": "CVE-2019-0708",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 RDP \u0438\u043b\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0441\u0435\u0442\u0435\u0432\u0443\u044e \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e."
+        }
+      ]
+    },
+    {
+      "id": "cecf61b0-7987-4c60-97b5-ba632f6e363c",
+      "name": "Laptop-79",
+      "type": "Laptop",
+      "services": [
+        {
+          "name": "FTP",
+          "vulnerability": "CVE-2015-3306",
+          "remediation": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 SFTP \u0432\u043c\u0435\u0441\u0442\u043e FTP."
+        },
+        {
+          "name": "HTTP",
+          "vulnerability": "CVE-2021-41773",
+          "remediation": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 Apache \u0434\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0435\u0440\u0441\u0438\u0438."
+        },
+        {
+          "name": "MySQL",
+          "vulnerability": "CVE-2012-2122",
+          "remediation": "\u041e\u0442\u043a\u043b\u044e\u0447\u0438\u0442\u0435 root-\u0434\u043e\u0441\u0442\u0443\u043f \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": "d53b9f6d-3653-4245-8eca-ebf65f9847f6",
+      "to": "fecc0b89-900e-47d7-aa93-a01ad06597b0"
+    },
+    {
+      "from": "d53b9f6d-3653-4245-8eca-ebf65f9847f6",
+      "to": "6cf6b12d-8d03-46d5-81e8-12663c25b795"
+    },
+    {
+      "from": "6cf6b12d-8d03-46d5-81e8-12663c25b795",
+      "to": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa"
+    },
+    {
+      "from": "ce7afa99-ea83-43a0-8b4a-8ff5811cc68b",
+      "to": "caf1a2e2-8555-4678-a1e9-f7f7fe673250"
+    },
+    {
+      "from": "fecc0b89-900e-47d7-aa93-a01ad06597b0",
+      "to": "5e8464e1-6c75-46c8-afaa-b35d7406391b"
+    },
+    {
+      "from": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa",
+      "to": "0e64ac11-bcfc-4ca5-b63d-448dbd9a4487"
+    },
+    {
+      "from": "fecc0b89-900e-47d7-aa93-a01ad06597b0",
+      "to": "caf1a2e2-8555-4678-a1e9-f7f7fe673250"
+    },
+    {
+      "from": "caf1a2e2-8555-4678-a1e9-f7f7fe673250",
+      "to": "39117c0a-c43e-40c3-8496-3c390dcceaef"
+    },
+    {
+      "from": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa",
+      "to": "5a189752-82b2-4813-8a6c-4075170afcac"
+    },
+    {
+      "from": "5e8464e1-6c75-46c8-afaa-b35d7406391b",
+      "to": "87683adb-6c4a-4eba-939d-aca10b87c505"
+    },
+    {
+      "from": "df51be7d-a5df-4212-bb7e-4b5cf7da2d0e",
+      "to": "f9177fbc-4935-4058-aec5-d10dde2c1b93"
+    },
+    {
+      "from": "87683adb-6c4a-4eba-939d-aca10b87c505",
+      "to": "8cb2268c-9ed8-4286-8999-fc4048dd226d"
+    },
+    {
+      "from": "5a189752-82b2-4813-8a6c-4075170afcac",
+      "to": "7ccfeb1d-e4cf-4623-a90d-93bceadf9d33"
+    },
+    {
+      "from": "8cb2268c-9ed8-4286-8999-fc4048dd226d",
+      "to": "38ca14d6-9458-4f12-9505-ece69a5600e4"
+    },
+    {
+      "from": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa",
+      "to": "d22b7849-1b92-46c7-8367-bd02c9308f1e"
+    },
+    {
+      "from": "caf1a2e2-8555-4678-a1e9-f7f7fe673250",
+      "to": "9cf664bc-fb73-4fba-8bda-e301836afb1c"
+    },
+    {
+      "from": "d53b9f6d-3653-4245-8eca-ebf65f9847f6",
+      "to": "4e54b1fc-ccc5-49c0-8ae6-86dbbd899e25"
+    },
+    {
+      "from": "38ca14d6-9458-4f12-9505-ece69a5600e4",
+      "to": "de401462-40f6-4f40-a31b-7e007c5e7aeb"
+    },
+    {
+      "from": "120baba9-e4ae-442e-ac53-9bc029be294e",
+      "to": "9cf664bc-fb73-4fba-8bda-e301836afb1c"
+    },
+    {
+      "from": "8cb2268c-9ed8-4286-8999-fc4048dd226d",
+      "to": "e54fc833-0150-4798-b9f5-9a49bd6bab10"
+    },
+    {
+      "from": "fecc0b89-900e-47d7-aa93-a01ad06597b0",
+      "to": "8fc30d6b-28b3-46d0-a1ec-46752acdaff8"
+    },
+    {
+      "from": "0e64ac11-bcfc-4ca5-b63d-448dbd9a4487",
+      "to": "db3d3638-ed2c-4bb9-90dd-9dda7eba1375"
+    },
+    {
+      "from": "0e64ac11-bcfc-4ca5-b63d-448dbd9a4487",
+      "to": "40db3c34-8385-4862-9de2-c06119c2c5bd"
+    },
+    {
+      "from": "4e54b1fc-ccc5-49c0-8ae6-86dbbd899e25",
+      "to": "e41d4ff0-3810-4f1c-a7ff-6599777c52e8"
+    },
+    {
+      "from": "8fc30d6b-28b3-46d0-a1ec-46752acdaff8",
+      "to": "98387476-815c-4236-9473-bf68ae11bd2e"
+    },
+    {
+      "from": "7ccfeb1d-e4cf-4623-a90d-93bceadf9d33",
+      "to": "f9177fbc-4935-4058-aec5-d10dde2c1b93"
+    },
+    {
+      "from": "caf1a2e2-8555-4678-a1e9-f7f7fe673250",
+      "to": "40ebdfb9-29a8-4b8d-8dcf-83751e41fc40"
+    },
+    {
+      "from": "fecc0b89-900e-47d7-aa93-a01ad06597b0",
+      "to": "575e1a76-95d6-49a9-a6bb-5144ec3c37a1"
+    },
+    {
+      "from": "24f49768-bf13-4bd7-b43e-44d22208121a",
+      "to": "39117c0a-c43e-40c3-8496-3c390dcceaef"
+    },
+    {
+      "from": "8fc30d6b-28b3-46d0-a1ec-46752acdaff8",
+      "to": "24f49768-bf13-4bd7-b43e-44d22208121a"
+    },
+    {
+      "from": "7ce1d5e1-6807-47c5-baa6-e5f1203a267b",
+      "to": "c28f5a20-a65a-43c0-9352-fd9fa3b24746"
+    },
+    {
+      "from": "40db3c34-8385-4862-9de2-c06119c2c5bd",
+      "to": "e833ee5d-5893-4b13-848d-7b765f9ce808"
+    },
+    {
+      "from": "fecc0b89-900e-47d7-aa93-a01ad06597b0",
+      "to": "a3b7cc51-21ed-4da8-a55d-fea2e61c9824"
+    },
+    {
+      "from": "40db3c34-8385-4862-9de2-c06119c2c5bd",
+      "to": "a1b1f657-aaaa-480d-8f86-d9905779c79e"
+    },
+    {
+      "from": "38ca14d6-9458-4f12-9505-ece69a5600e4",
+      "to": "7964f126-c531-41bc-b0ad-ab3be7e4aa50"
+    },
+    {
+      "from": "575e1a76-95d6-49a9-a6bb-5144ec3c37a1",
+      "to": "7e9508f7-2819-4819-b722-5ace66cd8549"
+    },
+    {
+      "from": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa",
+      "to": "dbf7927d-dc80-49fb-86ba-d2126f17e0e6"
+    },
+    {
+      "from": "0e64ac11-bcfc-4ca5-b63d-448dbd9a4487",
+      "to": "b0364243-fc33-4a02-adb4-c5557cfed389"
+    },
+    {
+      "from": "5a189752-82b2-4813-8a6c-4075170afcac",
+      "to": "193aae20-978d-44b5-be67-5053c200e247"
+    },
+    {
+      "from": "193aae20-978d-44b5-be67-5053c200e247",
+      "to": "6d7c6551-dba7-4bf9-a71e-018d8e6972d3"
+    },
+    {
+      "from": "6cf6b12d-8d03-46d5-81e8-12663c25b795",
+      "to": "50a07981-315d-4653-bb37-88cd9b843f94"
+    },
+    {
+      "from": "88605ae0-0b34-4f9b-9416-29f6555c2844",
+      "to": "acc1e7ee-3da0-4055-a8d7-2dac6661b0e3"
+    },
+    {
+      "from": "e54fc833-0150-4798-b9f5-9a49bd6bab10",
+      "to": "ecd85cd7-79e4-4292-8764-ecc1c7f2c623"
+    },
+    {
+      "from": "e54fc833-0150-4798-b9f5-9a49bd6bab10",
+      "to": "e4e7015d-b8ef-4780-bd3a-eec01e3340c3"
+    },
+    {
+      "from": "e54fc833-0150-4798-b9f5-9a49bd6bab10",
+      "to": "ce7afa99-ea83-43a0-8b4a-8ff5811cc68b"
+    },
+    {
+      "from": "0e64ac11-bcfc-4ca5-b63d-448dbd9a4487",
+      "to": "48213b92-b17a-41ed-bcfd-bf3c3e735bc2"
+    },
+    {
+      "from": "de401462-40f6-4f40-a31b-7e007c5e7aeb",
+      "to": "d3330c6f-b612-4267-a952-56d3f80c336f"
+    },
+    {
+      "from": "40ebdfb9-29a8-4b8d-8dcf-83751e41fc40",
+      "to": "6cf6b12d-8d03-46d5-81e8-12663c25b795"
+    },
+    {
+      "from": "48213b92-b17a-41ed-bcfd-bf3c3e735bc2",
+      "to": "b3173034-2864-4eef-9a1b-77e9eee23c9a"
+    },
+    {
+      "from": "40ebdfb9-29a8-4b8d-8dcf-83751e41fc40",
+      "to": "2930169b-3f99-4e32-86d8-35c764c05f8f"
+    },
+    {
+      "from": "e54fc833-0150-4798-b9f5-9a49bd6bab10",
+      "to": "7c158786-5566-482c-a6c5-8bd953f5f265"
+    },
+    {
+      "from": "d53b9f6d-3653-4245-8eca-ebf65f9847f6",
+      "to": "0b2498f9-32b4-4acc-b09c-ee8e35d65de5"
+    },
+    {
+      "from": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa",
+      "to": "27f3be0b-cbdc-403e-a6d5-90911ad81264"
+    },
+    {
+      "from": "caf1a2e2-8555-4678-a1e9-f7f7fe673250",
+      "to": "013aca33-3f27-4399-82e7-50908d3e9477"
+    },
+    {
+      "from": "0e64ac11-bcfc-4ca5-b63d-448dbd9a4487",
+      "to": "d53b9f6d-3653-4245-8eca-ebf65f9847f6"
+    },
+    {
+      "from": "a1b1f657-aaaa-480d-8f86-d9905779c79e",
+      "to": "7ce1d5e1-6807-47c5-baa6-e5f1203a267b"
+    },
+    {
+      "from": "98387476-815c-4236-9473-bf68ae11bd2e",
+      "to": "acc1e7ee-3da0-4055-a8d7-2dac6661b0e3"
+    },
+    {
+      "from": "a5ef49b7-4d71-4f89-81c7-ee4fcae02eaa",
+      "to": "7613a440-40fe-4529-b2ae-638f3d05b7f6"
+    },
+    {
+      "from": "38ca14d6-9458-4f12-9505-ece69a5600e4",
+      "to": "cb6bbc04-d97c-4131-8005-f46dc3001221"
+    },
+    {
+      "from": "39117c0a-c43e-40c3-8496-3c390dcceaef",
+      "to": "120baba9-e4ae-442e-ac53-9bc029be294e"
+    },
+    {
+      "from": "7ccfeb1d-e4cf-4623-a90d-93bceadf9d33",
+      "to": "c28f5a20-a65a-43c0-9352-fd9fa3b24746"
+    },
+    {
+      "from": "8cb2268c-9ed8-4286-8999-fc4048dd226d",
+      "to": "3d9d52da-f281-4453-96ac-d7b62dce88e5"
+    },
+    {
+      "from": "fd32e995-0326-4e3a-a729-d134da265417",
+      "to": "132b9fb9-2d91-471b-bc0c-d2c446c11e4d"
+    },
+    {
+      "from": "120baba9-e4ae-442e-ac53-9bc029be294e",
+      "to": "897b9b68-9f62-4939-b03e-b425e094322e"
+    },
+    {
+      "from": "8cb2268c-9ed8-4286-8999-fc4048dd226d",
+      "to": "23971421-d62a-45f0-bb3d-8015af0abd5d"
+    },
+    {
+      "from": "38ca14d6-9458-4f12-9505-ece69a5600e4",
+      "to": "b0364243-fc33-4a02-adb4-c5557cfed389"
+    },
+    {
+      "from": "6cf6b12d-8d03-46d5-81e8-12663c25b795",
+      "to": "93bc8e40-f668-42a9-9252-8c8a3349595e"
+    },
+    {
+      "from": "50a07981-315d-4653-bb37-88cd9b843f94",
+      "to": "dbf7927d-dc80-49fb-86ba-d2126f17e0e6"
+    },
+    {
+      "from": "7c158786-5566-482c-a6c5-8bd953f5f265",
+      "to": "31b008cc-94a8-4be1-b92c-6fae45cbb608"
+    },
+    {
+      "from": "39117c0a-c43e-40c3-8496-3c390dcceaef",
+      "to": "6cf6b12d-8d03-46d5-81e8-12663c25b795"
+    },
+    {
+      "from": "e4e7015d-b8ef-4780-bd3a-eec01e3340c3",
+      "to": "46a7bd63-e030-4893-9bab-8ab5341b322d"
+    },
+    {
+      "from": "e4e7015d-b8ef-4780-bd3a-eec01e3340c3",
+      "to": "3e50207a-312b-4d8c-8617-f9aa4246176d"
+    },
+    {
+      "from": "7e9508f7-2819-4819-b722-5ace66cd8549",
+      "to": "b68fcef1-9515-4d03-a2f7-84fcc74f8a57"
+    },
+    {
+      "from": "46a7bd63-e030-4893-9bab-8ab5341b322d",
+      "to": "88605ae0-0b34-4f9b-9416-29f6555c2844"
+    },
+    {
+      "from": "2930169b-3f99-4e32-86d8-35c764c05f8f",
+      "to": "66d0f492-5e5c-4815-a84b-7a0b247ad67f"
+    },
+    {
+      "from": "d53b9f6d-3653-4245-8eca-ebf65f9847f6",
+      "to": "dbb13fd8-b187-49d4-bdd2-bccf100184d9"
+    },
+    {
+      "from": "caf1a2e2-8555-4678-a1e9-f7f7fe673250",
+      "to": "132b9fb9-2d91-471b-bc0c-d2c446c11e4d"
+    },
+    {
+      "from": "0b2498f9-32b4-4acc-b09c-ee8e35d65de5",
+      "to": "cf91a351-1eda-489d-8ef4-925183dc4aa7"
+    },
+    {
+      "from": "6d7c6551-dba7-4bf9-a71e-018d8e6972d3",
+      "to": "df51be7d-a5df-4212-bb7e-4b5cf7da2d0e"
+    },
+    {
+      "from": "98387476-815c-4236-9473-bf68ae11bd2e",
+      "to": "210918c0-036f-43b9-a070-c64c9c0d6bfb"
+    },
+    {
+      "from": "2930169b-3f99-4e32-86d8-35c764c05f8f",
+      "to": "6b2eaa3e-0618-435d-9717-5dca6f121765"
+    },
+    {
+      "from": "a134314e-4157-45db-aeee-8e91906eab09",
+      "to": "31b008cc-94a8-4be1-b92c-6fae45cbb608"
+    },
+    {
+      "from": "e54fc833-0150-4798-b9f5-9a49bd6bab10",
+      "to": "a3b7cc51-21ed-4da8-a55d-fea2e61c9824"
+    },
+    {
+      "from": "23971421-d62a-45f0-bb3d-8015af0abd5d",
+      "to": "dbf7927d-dc80-49fb-86ba-d2126f17e0e6"
+    },
+    {
+      "from": "0b2498f9-32b4-4acc-b09c-ee8e35d65de5",
+      "to": "a134314e-4157-45db-aeee-8e91906eab09"
+    },
+    {
+      "from": "7ce1d5e1-6807-47c5-baa6-e5f1203a267b",
+      "to": "5753fe4c-43f5-4f82-b75f-3f30404e8eb5"
+    },
+    {
+      "from": "5e8464e1-6c75-46c8-afaa-b35d7406391b",
+      "to": "b0b8ba38-51a4-4fce-a4c9-d55a8077d3bf"
+    },
+    {
+      "from": "b0364243-fc33-4a02-adb4-c5557cfed389",
+      "to": "0fd96301-fc08-4e15-8e57-e3eb6b985cb0"
+    },
+    {
+      "from": "a134314e-4157-45db-aeee-8e91906eab09",
+      "to": "f155d5aa-883f-40f8-a328-096fb6eab658"
+    },
+    {
+      "from": "0b2498f9-32b4-4acc-b09c-ee8e35d65de5",
+      "to": "28d55f1a-7acb-4604-81d8-cd5f72d6795e"
+    },
+    {
+      "from": "d22b7849-1b92-46c7-8367-bd02c9308f1e",
+      "to": "714fd6d7-ac37-4906-a5a2-6320005dab15"
+    },
+    {
+      "from": "120baba9-e4ae-442e-ac53-9bc029be294e",
+      "to": "fd32e995-0326-4e3a-a729-d134da265417"
+    },
+    {
+      "from": "193aae20-978d-44b5-be67-5053c200e247",
+      "to": "7cc3eb46-8d98-4151-9025-9491d84d7e76"
+    },
+    {
+      "from": "6cf6b12d-8d03-46d5-81e8-12663c25b795",
+      "to": "cecf61b0-7987-4c60-97b5-ba632f6e363c"
+    },
+    {
+      "from": "98387476-815c-4236-9473-bf68ae11bd2e",
+      "to": "ce7afa99-ea83-43a0-8b4a-8ff5811cc68b"
+    }
+  ]
+}
